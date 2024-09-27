@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blue; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-gap: 5px;
+    position: relative;
+}
+
+.block {
+    width: 50px;
+    height: 50px;
+}
+
+.yellow {
+    background-color: #caa220;
+}
+
+.red {
+    background-color: red;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.skyblue {
+    background-color: skyblue;
+}
+
+.floating {
+    position: absolute;
+    top: -110px;
+    left: 120px;
+}

@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(212, 185, 26); 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.star {
+    width: 150px;
+    height: 150px;
+    background-color: #0a3b34; 
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
